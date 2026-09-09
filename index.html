@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Greer Firestone — author, playwright, and creator of historical fiction, memoir, and musical theatre." />
+  <meta name="theme-color" content="#f3b0ad" />
+
+  <title>Greer Firestone | Author & Playwright</title>
+
+  <!--
+    IMAGE CHECKLIST
+    ------------------------------------------------------------
+    Put these files inside an /images folder next to this file:
+
+    ALL OF THESE ARE NOW INCLUDED IN /images:
+
+    images/greer-firestone.jpg   -> Greer's headshot
+    images/edsel.jpg             -> MY LIFE AS AN EDSEL front-cover crop
+    images/alexei-rasputin.jpg   -> ALEXEI AND THE MAD MONK RASPUTIN front-cover crop
+    images/judy-garland.jpg      -> JUDY GARLAND poster
+    images/gershwin.jpg          -> GERSHWIN artwork
+    images/capone.jpg            -> AL CAPONE artwork
+
+    NOTE:
+    The Edsel and Alexei uploads were full wraparound covers. The versions in
+    /images are cropped to the FRONT covers so they display properly online.
+    You can replace any image later without changing the layout as long as you
+    keep the same filename.
+  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="Greer Firestone home">Greer Firestone</a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#books">Books</a>
+        <a href="#theatre">Theatre</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <img
+          class="hero-portrait"
+          src="images/greer-firestone.jpg"
+          alt="Greer Firestone"
+          onerror="this.classList.add('image-missing')"
+        />
+
+        <p class="eyebrow">Author · Playwright · Founder</p>
+        <h1 id="hero-title">Greer Firestone</h1>
+        <p class="hero-copy">
+          The work of a Renaissance man—stories shaped by history, memory, music, and experience.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#books">Explore the work</a>
+          <a class="text-link" href="#contact">Licensing &amp; contact <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-intro section-intro-books" id="books" aria-labelledby="books-title">
+      <p class="eyebrow">Books</p>
+      <h2 id="books-title">Selected writing</h2>
+    </section>
+
+    <article class="project project-light reveal">
+      <div class="project-copy">
+        <p class="project-type">Memoir</p>
+        <h3>My Life as an Edsel</h3>
+        <p class="project-deck">Driven by Ego. Derailed by Irony. Redeemed by Endurance.</p>
+        <p>
+          A humorous journey through an extraordinary American life—from the upheavals of the
+          1960s and a six-month odyssey through Europe to entrepreneurial triumphs, spectacular
+          reversals, theater, politics, and reinvention.
+        </p>
+        <p class="availability">Available through your local bookstore and Amazon.</p>
+        <div class="project-actions">
+          <a class="button button-dark" href="https://www.amazon.com/My-Life-Edsel-Derailed-Endurance/dp/B0H7WJ59FB" target="_blank" rel="noopener noreferrer" aria-label="Buy My Life as an Edsel on Amazon">
+            Buy the book <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+      <div class="project-media contain-art project-media-edsel">
+        <!-- INCLUDED IMAGE: front-cover crop from the supplied full Edsel cover -->
+        <img src="images/edsel.jpg" alt="My Life as an Edsel book cover" loading="lazy" />
+      </div>
+    </article>
+
+    <article class="project project-reverse project-blush reveal">
+      <div class="project-copy">
+        <p class="project-type">Historical Novel · Second Edition</p>
+        <h3>Alexei and the Mad Monk Rasputin</h3>
+        <p class="project-deck">Delaware Press Association Award Winner</p>
+        <p>
+          The compelling story of Tsarevich Alexei Romanov, his battle with hemophilia, and the
+          mysterious Siberian mystic whose influence over the Imperial Family helped change the
+          course of Russian history.
+        </p>
+        <p class="availability">Available through your local bookstore and Amazon.</p>
+        <div class="project-actions">
+          <a class="button button-dark" href="https://www.amazon.com/Alexei-Monk-Rasputin-Greer-Firestone/dp/B0CR1Y6L14" target="_blank" rel="noopener noreferrer" aria-label="Buy Alexei and the Mad Monk Rasputin on Amazon">
+            Buy the book <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+      <div class="project-media project-media-dark contain-art">
+        <!-- INCLUDED IMAGE: front-cover crop from the supplied full Alexei cover -->
+        <img src="images/alexei-rasputin.jpg" alt="Alexei and the Mad Monk Rasputin book cover" loading="lazy" />
+      </div>
+    </article>
+
+    <section class="section-intro section-intro-dark" id="theatre" aria-labelledby="theatre-title">
+      <p class="eyebrow">Original works by Greer Firestone</p>
+      <h2 id="theatre-title">Broadway Musical Theatre</h2>
+      <p>
+        Original books and dramatic storytelling meet the great songs of the American Songbook,
+        performed by the legendary personalities who defined their eras.
+      </p>
+    </section>
+
+    <article class="project project-dark reveal">
+      <div class="project-copy">
+        <p class="project-type">Musical Theatre</p>
+        <h3>Judy Garland: “World’s Greatest Entertainer”</h3>
+        <p class="project-deck">
+          20 American Songbook classics celebrating Judy Garland, Frank Sinatra and Liza Minnelli.
+        </p>
+        <p>
+          A theatrical journey through Garland's remarkable life and career, told through story,
+          humor and the music that made her an American icon.
+        </p>
+        <p class="availability">Available for licensing.</p>
+        <a class="button button-light" href="https://judygarlandthemusical.com/" target="_blank" rel="noopener noreferrer">
+          Visit the Judy Garland musical website
+        </a>
+      </div>
+      <div class="project-media contain-art project-media-judy">
+        <!-- INCLUDED IMAGE: supplied Judy Garland poster -->
+        <img src="images/judy-garland.jpg" alt="Judy Garland World's Greatest Entertainer musical artwork" loading="lazy" />
+      </div>
+    </article>
+
+    <article class="project project-reverse project-cream reveal">
+      <div class="project-copy">
+        <p class="project-type">Musical Theatre</p>
+        <h3>Gershwin, by George: The 1936 Radio Show</h3>
+        <p class="project-deck">22 Gershwin classics spanning Broadway, opera and the concert hall.</p>
+        <p>
+          A 1936 radio broadcast comes alive with George Gershwin at the piano and appearances by
+          Ethel Merman, Al Jolson, Fred &amp; Adele Astaire, Jimmy Durante, Anne Wiggins Brown and
+          Todd Duncan—celebrating the astonishing range of America's great musical master.
+        </p>
+        <p class="availability">Available for licensing.</p>
+        <a class="text-link" href="#contact">Licensing information <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="project-media contain-art project-media-cream">
+        <!-- IMAGE INCLUDED: images/gershwin.jpg -->
+        <img src="images/gershwin.jpg" alt="Gershwin, by George: The 1936 Radio Show artwork" loading="lazy" />
+      </div>
+    </article>
+
+    <article class="project project-red reveal">
+      <div class="project-copy">
+        <p class="project-type">Musical Theatre</p>
+        <h3>Al Capone: The Rat-A-Tat-Tat-Tat Musical</h3>
+        <p class="project-deck">Chicago. Prohibition. Gangsters. Bullets. And music.</p>
+        <p>
+          Scarface Al Capone and his South Side henchmen face off against George “Bugs” Moran and
+          the North Side Mob in a musical romp through the outrageous personalities and violent
+          mythology of Prohibition-era Chicago.
+        </p>
+        <p class="availability">Available for licensing.</p>
+        <a class="text-link text-link-light" href="#contact">Licensing information <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="project-media contain-art project-media-red">
+        <!-- IMAGE INCLUDED: images/capone.jpg -->
+        <img src="images/capone.jpg" alt="Al Capone: The Rat-A-Tat-Tat-Tat Musical artwork" loading="lazy" />
+      </div>
+    </article>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner reveal">
+        <p class="eyebrow">Further information &amp; licensing</p>
+        <h2 id="contact-title">Get in touch</h2>
+        <p>
+          For publishing, production, performance rights, and licensing inquiries, contact Greer Firestone directly.
+        </p>
+
+        <div class="contact-links">
+          <a href="tel:+13024943133">302.494.3133</a>
+          <a href="mailto:greerfirestone@gmail.com">greerfirestone@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#top">Greer Firestone</a>
+    <p>© <span id="year"></span> Greer Firestone. All rights reserved.</p>
+  </footer>
+</body>
+</html>
