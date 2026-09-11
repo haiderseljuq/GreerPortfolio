@@ -222,6 +222,12 @@ a {
   text-transform: uppercase;
 }
 
+.hero-credentials {
+  max-width: 900px;
+  font-size: clamp(0.95rem, 1.5vw, 1.2rem);
+  line-height: 1.45;
+}
+
 h1,
 h2,
 h3 {
