@@ -8,6 +8,7 @@
   judy-garland.jpg
   gershwin.jpg
   capone.jpg
+  greer-contemplating.jpg
 */
 
 :root {
@@ -502,6 +503,18 @@ h1 {
 
 .project-media-red {
   background: #6f1d1c;
+}
+
+.project-critic {
+  background: #e8e1d6;
+}
+
+.project-media-critic {
+  background: #7a211f;
+}
+
+.project-media-critic img {
+  object-position: center center;
 }
 
 .contact {
